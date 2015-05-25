@@ -1,2 +1,8 @@
-<h1>Works#index</h1>
-<p>Find me in app/views/works/index.html.erb</p>
+<% @works.each do |work| %>
+  <div><%= work.number %></div>
+  <div><%= work.title %>(<%= work.title_read %>)</div>
+  <div><%= work.subtitle %></div>
+  <div><%= work.distributed_at %></div>
+  <div><%= work.url %></div>
+  <hr/>
+<% end %>
