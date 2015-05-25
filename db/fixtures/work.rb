@@ -1,0 +1,16 @@
+Work.seed(:id,
+  { id: 1,
+    number: 6,
+    title: '東方紅魔郷',
+    title_read: 'とうほうこうまきょう',
+    subtitle: 'the Embodiment of Scarlet Devil.',
+    distributed_at: '2002/08/11',
+    url: 'http://www16.big.or.jp/~zun/html/th06.html'},
+  { id: 2,
+    number: 7,
+    title: '東方妖々夢',
+    title_read: 'とうほうようようむ',
+    subtitle: 'Perfect Cherry Blossom.',
+    distributed_at: '2003/08/17',
+    url: 'http://www16.big.or.jp/~zun/html/th07.html'}
+)
